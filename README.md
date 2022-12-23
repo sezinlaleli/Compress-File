@@ -8,7 +8,7 @@ Metin dosyaları için basit bir sıkıştırma algoritması kodlayacaksınız. 
 4. Bu dizginin bütün 8 karakterlik alt dizgilerini, onluk düzene çevirip bir byte dizisine at. (Yukarıda oluşan dizginin uzunluğu 8’in katı olmayabilir!) 
 5. Bu byte dizisini (ve bazı eksta bilgileri) bir binary dosyaya yaz. 
 
-Algoritma sonunda olu¸san dosya metin dosyasının sıkıltırılmış halidir. Örnek olarak, içeriği sadece aşağıdaki cümle olan metin dosyasına bakalım. 
+Algoritma sonunda oluşan dosya metin dosyasının sıkıltırılmış halidir. Örnek olarak, içeriği sadece aşağıdaki cümle olan metin dosyasına bakalım. 
 
 Programming is fun. 
 
@@ -18,7 +18,7 @@ P : 0000 r : 0001 o : 0010 g : 0011 a : 0100 m : 0101 i : 0110 n : 0111 s : 1000
 
 Dolayısıyla dosyanın içeriği aşağıdaki dizgi ile gösterilebilir. 0000000100100011000101000101010101100111001111000110100011001001101001111011 
 
-Bu dizgiyi 8 karakterlik alt dizgiler halinde byte dizilerine atmanız gerekiyor. Dizgi toplam 19*4= 76 bitten olu¸suyor ve 10 byte içinde saklanabilir (Son byte’a 4 bit kalıyor). Metin dosyasındaki bütün (farklı) karakterleri, onları kodlarını ve bu 10 byte’ı sırayla ikili dosyaya yazdığınız zaman sıkıştırma işlemi bitmiş olacak. Dosyanın bu ilk kısmına bu bilgileri nasıl yazacağınıza kendiniz karar vereceksiniz. Yapabildiğiniz kadar az yer kaplayacak şekilde yazmalısınız. (Bu ¨ornek i¸cin sıkı¸stırılmı¸s dosyanın metin dosyasından daha büyük olduğunu göreceksiniz, bu kadar küçükk dosyalar için bu metot bir işe yaramaz, ama daha uzun ve belli i¸cerikte metin dosyaları i¸cin sıkı¸stırma sa˘glayacaktır) 
+Bu dizgiyi 8 karakterlik alt dizgiler halinde byte dizilerine atmanız gerekiyor. Dizgi toplam 19*4= 76 bitten oluşuyor ve 10 byte içinde saklanabilir (Son byte’a 4 bit kalıyor). Metin dosyasındaki bütün (farklı) karakterleri, onları kodlarını ve bu 10 byte’ı sırayla ikili dosyaya yazdığınız zaman sıkıştırma işlemi bitmiş olacak. Dosyanın bu ilk kısmına bu bilgileri nasıl yazacağınıza kendiniz karar vereceksiniz. Yapabildiğiniz kadar az yer kaplayacak şekilde yazmalısınız. (Bu örnek için sıkıştırılmış dosyanın metin dosyasından daha büyük olduğunu göreceksiniz, bu kadar küçükk dosyalar için bu metot bir işe yaramaz, ama daha uzun ve belli i¸cerikte metin dosyaları i¸cin sıkı¸stırma sağlayacaktır) 
 
 Tabi ki bu algoritma ile sıkıştırılmış bir dosyayı da programınızın açabilmesi gerekiyor. 
 
