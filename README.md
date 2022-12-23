@@ -33,4 +33,4 @@ java myCompress-c input.txt
 //Sıkı¸stırılmış dosyayı a¸c. input.txt dosyasını oluştur. 
 //-x açma modunu gösterir. 
 
-java myCompress-x input.txt.C 1
+java myCompress-x input.txt.C 
